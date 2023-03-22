@@ -79,7 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: ListView(
         padding: const EdgeInsets.only(top: 10),
         children: [
-          Container(
+          SizedBox(
             height: 140,
             width: double.infinity,
             child: ListView(
@@ -134,7 +134,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         const SizedBox(
                           width: 10,
                         ),
-                        Container(
+                        SizedBox(
                           width: MediaQuery.of(context).size.width - 190,
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -316,7 +316,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             fontSize: 16,
                           ),
                         ),
-                        Container(
+                        SizedBox(
                           width: MediaQuery.of(context).size.width - 235,
                           child: Row(
                               mainAxisAlignment: MainAxisAlignment.end,
